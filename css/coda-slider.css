@@ -1,0 +1,58 @@
+#slider {
+    position: relative;
+	width: 100%;
+}
+
+#templatemo_wrapper {
+	width: 960px;
+	padding: 0;
+	margin: 0 auto;
+}
+
+#header {
+	width: 930px;
+	height: 101px;
+	background: url(../images/templatemo_header.png) no-repeat
+}
+
+#header h1 a { 
+	display: block; 
+	float: left; 
+	margin: 20px 0 0 140px; 
+	width: 320px; 
+	font-size: 30px; 
+	font-family: Georgia, "Times New Roman", Times, serif; 
+	color: #600;
+	text-decoration: none;
+}
+
+#menu {
+	width: 780px;
+	height: 40px;
+	padding: 0 90px;
+	background: url(../images/templatemo_menu.png) no-repeat
+}
+
+#content {
+	clear: both;
+	width: 780px;
+	height: 400px;
+	padding: 80px 130px 52px 130px;
+	background: url(../images/templatemo_body.png) no-repeat
+}
+
+.scroll {
+    height: 360px;
+    width: 730px;
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+    clear: left;
+}
+
+.scrollContainer div.panel {
+    height: 330px;
+    width: 640px;
+	padding: 0;
+	overflow: hidden;
+}
